@@ -111,13 +111,8 @@ Turtle will draw a square path automatically:
 ros2 run turtlesim draw_square
 ```
 
-<video src="https://github.com/Raghad-ALSalmi/ros2-turtle/blob/main/IMG_5314.mp4" controls autoplay loop muted width="600">
-  Your browser does not support the video tag.
-</video>
-
-<video src="https://github.com/Raghad-ALSalmi/ros2-turtle/blob/main/IMG_5316.mp4" controls autoplay loop muted width="600">
-  Your browser does not support the video tag.
-</video>
+![Teleop](https://github.com/Raghad-ALSalmi/ros2-turtle/blob/main/IMG_5314.MOV)
+![Teleop](https://github.com/Raghad-ALSalmi/ros2-turtle/blob/main/IMG_5316.MOV)
 
 ---
 
