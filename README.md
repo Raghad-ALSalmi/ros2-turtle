@@ -48,7 +48,7 @@ turtlesim turtlesim_node
 ros2 run turtlesim turtlesim_node
 ```
 
-![Turtlesim Window](IMAGE1)
+![Turtlesim Window](https://github.com/Raghad-ALSalmi/ros2-turtle/blob/main/photo_5802963265070943054_y.jpg)
 
 ### 2. Control the Turtle Using Keyboard
 
@@ -59,8 +59,13 @@ ros2 run turtlesim turtle_teleop_key
 Use the arrow keys to move the turtle.
 - `G|B|V|C|D|E|R|T` to rotate to specific angles
 - `F` to cancel rotation, `Q` to quit
+##  Project Screenshots
 
-![Teleop](IMAGE2)
+![Teleop](https://github.com/Raghad-ALSalmi/ros2-turtle/blob/main/photo_5802963265070943052_y.jpg)
+
+![Teleop](https://github.com/Raghad-ALSalmi/ros2-turtle/blob/main/photo_5802963265070943050_y.jpg)
+![Teleop](https://github.com/Raghad-ALSalmi/ros2-turtle/blob/main/photo_5802963265070943048_y%20(1).jpg)
+![Teleop](https://github.com/Raghad-ALSalmi/ros2-turtle/blob/main/photo_5802963265070943049_y.jpg)
 
 ---
 
@@ -106,7 +111,8 @@ Turtle will draw a square path automatically:
 ros2 run turtlesim draw_square
 ```
 
-![Drawing square](IMAGE3)
+[![Watch the video](https://github.com/Raghad-ALSalmi/ros2-turtle/blob/main/IMG_5316.MOV)
+[![Watch the video](https://github.com/Raghad-ALSalmi/ros2-turtle/blob/main/IMG_5314.MOV)
 
 ---
 
@@ -117,17 +123,6 @@ ros2 run turtlesim draw_square
 - If you're lost, always check the official [ROS2 Documentation](https://docs.ros.org/en/humble/index.html).
 
 ---
-
-##  Project Screenshots
-
-Replace these tags with your actual image links from GitHub after uploading them:
-
-```
-![Screenshot 1](IMAGE1)
-![Screenshot 2](IMAGE2)
-![Screenshot 3](IMAGE3)
-```
-
 ---
 
 
