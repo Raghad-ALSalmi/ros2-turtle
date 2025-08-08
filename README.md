@@ -190,3 +190,41 @@ Here are some ideas to build on top of this project:
 - 🌐 Create a web interface to control the turtle using ROS Bridge.
 
 ---
+
+# ros2-turtle  
+## Manipulating Turtlesim in ROS2 (Humble)
+
+This project demonstrates how to use the ROS2 `turtlesim` package to control and manipulate a simulated robot turtle. It introduces core ROS 2 concepts including:
+
+- Nodes  
+- Topics  
+- Services  
+- Parameters  
+- Remapping  
+
+---
+
+## 🚀 Quick Start Guide
+
+Follow these steps to get started:
+
+```bash
+# 1. Update packages
+sudo apt update
+
+# 2. Install turtlesim
+sudo apt install ros-humble-turtlesim
+
+# 3. Run the turtlesim node
+ros2 run turtlesim turtlesim_node
+
+# 4. In another terminal, control it with keyboard
+ros2 run turtlesim turtle_teleop_key
+```
+| Error Message                              | Solution                                                    |
+| ------------------------------------------ | ----------------------------------------------------------- |
+| `bash: syntax error near unexpected token` | Avoid using `<` or `>` in the terminal; use actual values.  |
+| `DISPLAY not set` or GUI doesn’t appear    | Run in a graphical environment, not a plain terminal shell. |
+| `command not found: ros2`                  | Source ROS setup: `source /opt/ros/humble/setup.bash`       |
+| Turtle not moving                          | Ensure `turtlesim_node` is running and responsive.          |
+
